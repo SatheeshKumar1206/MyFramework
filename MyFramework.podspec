@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.source_files = '*.{swift}'
   
    s.resource_bundles = {
-     'MyFramework' => ['MyFramework/Classes/**/*.{storyboard,xib,xcassets,json,imageset,png}']
+     'MyFramework' => ['*.{storyboard,xib,xcassets,json,imageset,png}']
    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
