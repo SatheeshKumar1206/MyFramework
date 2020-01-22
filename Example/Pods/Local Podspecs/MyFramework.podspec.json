@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "MyFramework/Classes/**/*"
+  "source_files": "MyFramework/Classes/**/*.{swift}",
+  "resource_bundles": {
+    "MyFramework": [
+      "MyFramework/Classes/**/*.{storyboard,xib,xcassets,json,imageset,png}"
+    ]
+  }
 }
