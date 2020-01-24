@@ -28,10 +28,10 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = '*.{swift}'
+  s.source_files = 'MyFramework/Classes/**/*.{swift}'
   
    s.resource_bundles = {
-     'MyFramework' => ['*.{storyboard,xib,xcassets,json,imageset,png}']
+     'MyFramework' => ['MyFramework/Classes/**/*.{storyboard,xib,xcassets,json,imageset,png}']
    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
